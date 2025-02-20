@@ -1,5 +1,5 @@
 VANTA.GLOBE({
-    el: "#your-element-selector",
+    el: "#doctor",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
@@ -8,6 +8,8 @@ VANTA.GLOBE({
     scale: 1.00,
     scaleMobile: 1.00
   })
+
+  
 let sub=()=>{
 
     let inpname=document.querySelector("#name").value

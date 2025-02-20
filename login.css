@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover;
+    /* background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover; */
 }
 form{
     
@@ -53,3 +53,10 @@ font-size: 30px;
  margin-right: 20px;
  width: 400px;
 }
+
+/* #doctor{
+    display: block;
+margin-top: 10px;
+margin-bottom: 40px;
+width: 100%;
+} */
