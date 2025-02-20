@@ -41,11 +41,14 @@ nav ul li a {
 }
 
 .login-btn {
-    background-color: white;
-    border: 1px solid gray;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
     padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
+    width: 20px;
+    height: 20px;
 }
 
 /* Search Section */
