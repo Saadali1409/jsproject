@@ -3,18 +3,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-   background-color: violet;
+    background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover;
 }
 form{
-    background-color: rgb(243, 166, 243);
+    
+    background:transparent color rgb(243, 166, 243);
+
     background-size: 50px;
-    border: 40px solid rgb(234, 171, 234);
     border-width: 30px;
+    align-items: center;
+    border: 10px solid #060606;
+    border-radius: 10px ;
 }
 
 
 input {
-    width: 100%;
+    width: 90%;
     padding: 7px;
     margin: 5px 0;
     border: 1px solid #060606;
@@ -47,4 +51,5 @@ font-size: 30px;
  color: white;
  margin-top: 30px;
  margin-right: 20px;
+ width: 400px;
 }

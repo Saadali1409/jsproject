@@ -42,15 +42,15 @@ let sub=()=>{
         return false
     }
     
-     localStorage.setItem("Name", name)
+     localStorage.setItem("Name", inpname)
 
-     localStorage.setItem("Number", number)
+     localStorage.setItem("Number", inpnum)
 
-     localStorage.setItem("Email", email)
+     localStorage.setItem("Email",inpemail )
 
-     localStorage.setItem("Password", pass)
+     localStorage.setItem("Password", inppass)
      
-     localStorage.setItem("Password", cpass)
+     localStorage.setItem("Password", inpcpass)
 
       location.href="locallogin.html"
 
