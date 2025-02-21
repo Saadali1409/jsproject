@@ -1,19 +1,19 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover; */
-}
+    background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover;
+} */
 form{
     
     background:transparent color rgb(243, 166, 243);
-
-    background-size: 50px;
-    border-width: 30px;
-    align-items: center;
-    border: 10px solid #060606;
-    border-radius: 10px ;
+    width: 400px;
+   background-size: 50px;
+   border-width: 30px;
+   align-items: center;
+   border: 10px solid #060606;
+   border-radius: 10px ;
 }
 
 
