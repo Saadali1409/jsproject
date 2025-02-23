@@ -51,18 +51,22 @@ nav ul li a {
     height: 30px;
     align-items: center;
     font-size: medium;
-    width: 100px;
+    width: 70px;
+    padding-right: 10px;
+    margin: 10px;
+
 }
 .singup-btn{
     
     background-color: black;
     color: white;
     border-radius: 10px;
-    width: 100px;
+    width: 70px;
     height: 30px;
     align-items: center; 
     font-size: medium;
-    padding-right: 20px;
+    padding: left 10px;;
+    margin: 10px;
     
     
 }
@@ -505,9 +509,22 @@ h3 {
   @media screen and (max-width: 425px){
      body{
          grid-template-columns: 1fr;
-         background-color:lightblue;
+         background-color:white;
          justify-content: center;
 
      }
+     div .image-container{
+        display: none;
+         flex-direction: column;
+
+     }
+     #click:checked ~ #navbar nav ul{
+        display: block;
+     }
+     div .article-card .img{
+        grid-template-columns: 1fr;
+     }
+
+     
 
  } 
