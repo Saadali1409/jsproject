@@ -466,3 +466,37 @@ h3 {
         color: #00aaff;
         font-size: 30px;
     }
+    /* tabletview */
+@media screen and (max-width: 768px){
+   
+    
+    
+    #navbar nav ul {
+         flex-direction: column;
+         position: absolute;
+         text-align: center;
+         top: 80px;
+         left: 0;
+         display: none;
+         width: 100%;
+         background-color: white;
+     } 
+     #click:checked ~ #navbar nav ul{
+        display: block;
+     }
+     #nav-icon input{
+         display: none;
+     }
+ }
+ 
+ /* mobile view */
+ @media screen and (max-width: 425px){
+     body{
+         grid-template-columns: 1fr;
+         background-color:lightblue;
+         justify-content: center;
+     }
+ #sing-in button a {
+     margin-left: auto;
+ }
+ }
