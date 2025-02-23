@@ -114,10 +114,25 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
 }
+
+div .consult-card img{
+    display: flex;
+    width: 100px;   
+    border-radius: 5px;
+    object-fit: cover; 
+    cursor: pointer;
+    margin: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
 div .consult-card{
     display: flex;
-    justify-content: space-evenly;
     gap: 20px;
+   align-items: center;
+}
+div .consult-card a{
+    
 }
 /* ======= SPECIALTIES SECTION ======= */
 .specialties {
