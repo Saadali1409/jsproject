@@ -42,13 +42,16 @@ nav ul li a {
 
 .login-btn {
     background-color: black;
-    border: 1px solid black;
     color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
+    border-radius: 10px;
+    width: 50px;
+}
+.singup-btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 30px;
+    padding-right: 20px;
 }
 
 /* Search Section */
@@ -96,6 +99,18 @@ nav ul li a {
 .service-card p {
     font-size: 14px;
     color: gray;
+}
+#consult-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 20px;
+}
+div .consult-card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 /* ======= SPECIALTIES SECTION ======= */
 .specialties {
