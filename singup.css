@@ -14,6 +14,7 @@ form{
     align-items: center;
     border: 10px solid #060606;
     border-radius: 10px ;
+    color: white;
 }
 
 
@@ -40,7 +41,7 @@ input[type="submit"] {
 p {
     margin: 0;
     font-size: 22px;
-    color:black;
+    color:white;
 }
 h1{
  text-align: center;

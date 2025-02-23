@@ -7,6 +7,10 @@
 }
 
 /* Navbar Styling */
+#click{
+display: none;
+
+}
 header {
     background-color: white;
     padding: 15px 40px;
@@ -44,14 +48,23 @@ nav ul li a {
     background-color: black;
     color: white;
     border-radius: 10px;
-    width: 50px;
+    height: 30px;
+    align-items: center;
+    font-size: medium;
+    width: 100px;
 }
 .singup-btn{
+    
     background-color: black;
     color: white;
     border-radius: 10px;
-    width: 30px;
+    width: 100px;
+    height: 30px;
+    align-items: center; 
+    font-size: medium;
     padding-right: 20px;
+    
+    
 }
 /* hover image */
 
@@ -467,11 +480,11 @@ h3 {
         font-size: 30px;
     }
     /* tabletview */
-@media screen and (max-width: 768px){
+ @media screen and (max-width: 768px){
    
     
     
-    #navbar nav ul {
+    ul li a {
          flex-direction: column;
          position: absolute;
          text-align: center;
@@ -480,23 +493,21 @@ h3 {
          display: none;
          width: 100%;
          background-color: white;
+
      } 
      #click:checked ~ #navbar nav ul{
         display: block;
      }
-     #nav-icon input{
-         display: none;
-     }
+   
  }
- 
+  
  /* mobile view */
- @media screen and (max-width: 425px){
+  @media screen and (max-width: 425px){
      body{
          grid-template-columns: 1fr;
          background-color:lightblue;
          justify-content: center;
+
      }
- #sing-in button a {
-     margin-left: auto;
- }
- }
+
+ } 
