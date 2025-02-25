@@ -517,8 +517,14 @@ div .consult-card a{
  /* swipper */
 
  .special{
-    width: 100%;
-    height: 50pvh;
+    /* width: 100%;
+    height: 50pvh; */
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    
  }
  .swiper {
      width: 100%;
