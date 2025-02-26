@@ -6,4 +6,9 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    
+    autoplay: true,
+    autoplay: {
+      delay: 1500,
+    },
   });
