@@ -550,7 +550,7 @@ div .consult-card a{
  }
   .swiper-slide img {
     display: block;
-    width: 70%;
+    width: 100%;
     height: 150px;
     border-radius: 5px;
     object-fit: cover;
