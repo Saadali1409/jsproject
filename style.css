@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+font-family: fantasy;}
 
 
 /* Navbar Styling */
@@ -44,6 +43,13 @@ nav ul li a {
     font-weight: 600;
     font-size: 16px;
 }
+
+
+
+
+
+
+
 
 .login-btn {
     background-color: black;
@@ -489,6 +495,9 @@ div .consult-card a{
      #click:checked ~ #navbar nav ul{
         display: block;
      }
+     #nav-icon input{
+        display: none;
+    }
    
  }
   
@@ -498,6 +507,7 @@ div .consult-card a{
          grid-template-columns: 1fr;
          background-color:white;
          justify-content: center;
+         
 
      }
      div .image-container{
@@ -505,7 +515,7 @@ div .consult-card a{
          flex-direction: column;
 
      }
-     #click:checked ~ #navbar nav ul{
+     #click:checked ~ nav ul{
         display: block;
      }
       .article-card {
@@ -561,3 +571,43 @@ div .consult-card a{
     justify-content: center;
     flex-direction: column;
   }
+
+
+
+
+  @media screen and (max-width: 768px){
+   
+    
+    
+    #navbar nav ul {
+         flex-direction: column;
+         position: absolute;
+         text-align: center;
+         top: 80px;
+         left: 0;
+         display: none;
+         width: 100%;
+         background-color: white;
+         grid-template-columns: 1fr;
+         background-color:white;
+         justify-content: center;
+     } 
+     #click:checked ~ #navbar nav ul{
+        display: block;
+     }
+     #nav-icon input{
+         display: none;
+     }
+ }
+ 
+ /* mobile view */
+ @media screen and (max-width: 425px){
+     body{
+         grid-template-columns: 1fr;
+         background-color:lightblue;
+         justify-content: center;
+     }
+ #sing-in button a {
+     margin-left: auto;
+ }
+ }
