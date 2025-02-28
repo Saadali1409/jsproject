@@ -141,7 +141,8 @@ nav ul li a {
 
 div .consult-card img{
     display: flex;
-    width: 100px;   
+    width: 50%;   
+    height: 50%;
     border-radius: 5px;
     object-fit: cover; 
     cursor: pointer;
@@ -151,7 +152,7 @@ div .consult-card img{
     
 }
 div .consult-card{
-    display: flex;
+    /* display: flex; */
     gap: 20px;
    align-items: center;
 }
@@ -159,8 +160,9 @@ div .consult-card a{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 
@@ -192,6 +194,7 @@ div .consult-card a{
     padding: 40px;
     max-width: 1200px;
     margin: auto;
+    height: 70%;
 }
 
 /* ======= LEFT CONTENT TEXT ======= */
@@ -240,6 +243,7 @@ div .consult-card a{
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 280px;
+    height: 70%;
     text-align: left;
     overflow: scroll;
 }
@@ -421,9 +425,11 @@ div .consult-card a{
 
     /* Each column in the footer */
     .footer-column {
-        flex: 1;
+        /* flex: 1; */
         min-width: 200px;
         margin-bottom: 20px;
+      
+
     }
 
     /* Column titles */
