@@ -254,6 +254,7 @@ div .consult-card a{
     border-radius: 5px;
     object-fit: cover;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .category {
@@ -434,13 +435,14 @@ div .consult-card a{
 
     /* Column titles */
     .footer-column h3 {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
 
     /* Footer links */
     .footer-column ul {
         list-style: none;
+        font-size: large;
     }
 
     .footer-column ul li {
@@ -452,10 +454,26 @@ div .consult-card a{
         color: white;
         font-size: 14px;
         opacity: 0.8;
+
     }
 
     .footer-column ul li a:hover {
         opacity: 1;
+    }
+
+
+    .footer-social ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        font-size: large;
+    }
+    .footer-social ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        opacity: 0.8;
+
     }
 
     /* Footer bottom section */
@@ -485,7 +503,12 @@ div .consult-card a{
     /* tabletview */
  @media screen and (max-width: 768px){
    
-    
+    /* .consult-card img  {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: center;
+    } */
     
     ul li a {
          flex-direction: column;
@@ -501,7 +524,7 @@ div .consult-card a{
      #click:checked ~ #navbar nav ul{
         display: block;
      }
-     #nav-icon input{
+     .nav-icon input{
         display: none;
     }
    
