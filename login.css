@@ -1,25 +1,27 @@
-body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
-    /* background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover; */
+body{
+    background-image: url(/images/bgidoctor.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-color: rgba(0, 0, 0, 0.1); */
 }
 form{
     
-    background:transparent color rgb(243, 166, 243);
-     width: 400px;
+   background-color: rgba(74, 13, 230, 0.098);
+     width: 40%;
     background-size: 50px;
     border-width: 30px;
     align-items: center;
-    border: 10px solid black;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid  skyblue; */
     border-radius: 10px ;
-    color: white;
+    color: black;
 }
 
 
 input {
-    width: 90%;
+    width: 80%;
     padding: 7px;
     margin: 5px 0;
     border: 1px solid #060606;
@@ -34,6 +36,7 @@ input[type="submit"] {
     border: none;
     margin-left: 7px;
     padding: 10px;
+    width: 80%;
 }
 
 
@@ -52,12 +55,12 @@ font-size: 30px;
  color: white;
  margin-top: 30px;
  margin-right: 20px;
- width: 400px;
+ width: 335px;
 }
 
 #doctor{
    
-width: 100%;
+width: 80%;
 height: 100vh;
 display: flex;
 align-items: center;

@@ -146,13 +146,13 @@ nav ul li a {
 
 div .consult-card img{
     display: flex;
-    width: 50%;   
+    width: 20%;   
     height: 50%;
     border-radius: 5px;
     object-fit: cover; 
     cursor: pointer;
     margin: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     
 }
@@ -172,7 +172,11 @@ div .consult-card a{
 
 
 
-
+.consult-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 
 
