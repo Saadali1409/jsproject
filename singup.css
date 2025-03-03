@@ -1,9 +1,9 @@
-body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
-     /* background: url(/Medical-Wallpapers-HD.jpg) no-repeat center center/cover;  */
+body{
+    background-image: url(/images/bgidoctor.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-color: rgba(0, 0, 0, 0.1); */
 }
 form{
     

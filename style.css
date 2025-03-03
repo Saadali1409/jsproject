@@ -5,8 +5,11 @@
     box-sizing: border-box;
 font-family: fantasy;}
 body{
-    /* background-image: url(/images/bgidoctor.jpg) ; */
-    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(/images/bgidoctor.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-color: rgba(0, 0, 0, 0.1); */
 }
 /* Navbar Styling */
 #click{
