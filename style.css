@@ -557,16 +557,22 @@ div .consult-card a{
      #click:checked ~ nav ul{
         display: block;
      }
+     .article-card{
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
       .article-card {
         /* grid-template-columns: 1fr; */
         flex-direction: column;
         align-items: center;
      }
      .article-card img h5 h3 p{
-        width: 100%;
+        /* width: 100%;
         max-width: 300px;
         margin-bottom: 20px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; */
      }
 
      
