@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="doctor.css">
+    <link rel="icon" href="/images/practologo.jpeg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <input type="checkbox" id="click">
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="/images/practologo.jpeg" alt="Practo Logo">
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="3000">  
+                <ul>
+                    <li><a href="#">Find Doctors</a></li>
+                    <li><a href="#">Video Consult</a></li>
+                    <li><a href="#">Surgeries</a></li>
+                    <li><a href="#">For Corporates</a></li>
+                    <li><a href="#">For Providers</a></li>
+                    <li><a href="#">Security & Help</a></li>
+                </ul>
+            </div>
+            <!-- Dropdown Section -->
+           <div class="dropdown"> <label for="click"><i class="fa-solid fa-bars"></i></label>
+            <div id="dropdown-content" class="dropdown-content">
+                <ul>
+                    <li><a href="#">Find Doctors</a></li>
+                    <li><a href="#">Video Consult</a></li>
+                    <li><a href="#">Surgeries</a></li>
+                    <li><a href="#">For Corporates</a></li>
+                    <li><a href="#">For Providers</a></li>
+                    <li><a href="#">Security & Help</a></li>
+                </ul>
+            </div></div>
+            <a href="/locallogin.html" target="_blank"><button class="login-btn">login</button></a>
+            <a href="/localsinup.html" target="_blank"><button class="singup-btn">singup</button></a>
+        </nav>
+    </header>
+    <!-- Your main content here -->
+    <main>
+        <!-- (rest of your content) -->
+        <main>
+            <section id="search-section">
+                <input type="text" placeholder="bhopal">
+                <input type="text" placeholder="Search doctors, clinics, hospitals, etc.">
+            </section>
+    
+            <section id="services">
+                <div class="service-card">
+                    <div  data-aos="zoom-in"  data-aos-duration="2500"> <img src="/images/vcdr.png" alt="Instant Video Consultation"></div>
+                    <h3>Instant Video Consultation</h3>
+                    <p>Connect within 60 secs</p>
+                </div>
+                <div class="service-card">
+                    <div data-aos="zoom-in-up"  data-aos-duration="2500"><img src="/images/nearyoudr.png" alt="Find Doctors Near You"></div>
+                    <h3>Find Doctors Near You</h3>
+                    <p>Confirmed appointments</p>
+                </div>
+                <div class="service-card">
+                    <div data-aos="zoom-in"  data-aos-duration="2500"><img src="/images/surgeriesdr.png" alt="Surgeries"></div>
+                    <h3>Surgeries</h3>
+                    <p>Safe and trusted surgery centers</p>
+                </div>
+            </section>
+        </main>
+        <!-- Consult Section -->
+        <section id="consult-section">
+            <h2>Consult top doctors online for any health concern</h2>
+            <p>Private online consultations with verified doctors in all specialists</p>
+            <div class="consult-cards">
+                <div class="consult-card" data-aos="fade-right"data-aos-duration="2000">
+                    
+                    <img src="/images/painful+period.png" alt="Period doubts or Pregnancy">
+                    <div>
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Period doubts or Pregnancy</h4>
+                    <a href="#">CONSULT NOW</a>
+                  </div>
+                </div>
+                <div class="consult-card"  data-aos="fade-right"data-aos-duration="2000">
+                    <img src="/images/skindr.png" alt="Acne, pimple or skin issues">
+                <div> 
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Acne, pimple or skin issues</h4>
+                    <a href="#">CONSULT NOW</a>
+                </div>
+                </div>
+                <div class="consult-card"  data-aos="fade-right"data-aos-duration="2000">
+                    <img src="/images/sexologydr.svg" alt="Performance issues in bed">
+                    <div>
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Performance issues in bed</h4>
+                    <a href="#">CONSULT NOW</a>
+                </div>
+                </div>
+                <div class="consult-card"  data-aos="fade-right"data-aos-duration="2000">
+                    <img src="/images/colddr.png" alt="Cold, cough or fever">
+                 <div>
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Cold, cough or fever</h4>
+                    <a href="#">CONSULT NOW</a>
+                 </div>
+                </div>
+                <div class="consult-card"  data-aos="fade-right"data-aos-duration="2000">
+                    <img src="/images/childdr.svg" alt="Child not feeling well">
+                 <div>
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Child not feeling well</h4>
+                    <a href="#">CONSULT NOW</a>
+                 </div>
+                </div>
+                <div class="consult-card"  data-aos="fade-right"data-aos-duration="2000">
+                    <img src="/images/depressiondr.png" alt="Depression or anxiety">
+                    <div>
+                    <h4 data-aos="fade-left"data-aos-duration="2000">Depression or anxiety</h4>
+                    <a href="#">CONSULT NOW</a>
+                </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+    
+     <!-- ======= HEADER SECTION ======= -->
+     <div class="container">
+        <h2>Book an appointment for an in-clinic consultation</h2>
+        <p>Find experienced doctors across all specialties</p>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <section class="special">
+        <!-- Swiper -->
+      <div class="swiper mySwiper">
+    
+       <!-- === DENTIST CARD === -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/dentistDR.jpg" alt="Dentist">
+            <h3>Dentist</h3>
+            <p>Teething troubles? Schedule a dental checkup</p>
+        </div>
+    
+        <!-- === GYNECOLOGIST CARD === -->
+         <div class="swiper-slide"><img src="/images/gynecologistDR.jpg" alt="Gynecologist">
+            <h3>Gynecologist</h3>
+            <p>Explore for women's health, pregnancy, and infertility treatments</p>
+        </div>
+    
+    
+        <!-- === DIETITIAN CARD === -->
+        <div class="swiper-slide"> <img src="/images/Dietitan DR.jpg" alt="Dietitian">
+            <h3>Dietitian/Nutrition</h3>
+            <p>Get guidance on eating right, weight management, and sports nutrition</p>
+        </div>
+    
+          <!-- === PHYSIOTHERAPIST CARD === -->
+        <div class="swiper-slide"> <img src="/images/physiotherapistDR.jpg" alt="Physiotherapist">
+            <h3>Physiotherapist</h3>
+            <p>Pulled a muscle? Get it treated by a trained physiotherapist</p>
+        </div>
+    
+    
+        <!-- === General surgeon CARD === -->
+        <div class="swiper-slide">  <img src="/images/general-surgeon.jpg" alt="Physiotherapist">
+            <h3>General surgeon</h3>
+            <p>Need to get operated?Find the right surgeon</p>
+        </div>
+    
+         <!-- === Orthopedist CARD === -->
+          <div class="swiper-slide"> <img src="/images/orthopedist.jpg" alt="Physiotherapist">
+            <h3>Orthopedist</h3>
+            <p>For Bone and Joints issues,spinal injuries and more</p>
+          </div>
+    
+               <!-- === General physican CARD === -->
+          <div class="swiper-slide"> <img src="/images/general-doctor.jpg" alt="Physiotherapist">
+            <h3>General physican</h3>
+            <p>Find the right family Doctor in your neighborhood</p>
+          </div>
+    
+    
+                <!-- === Pediatrician CARD === -->
+    
+          <div class="swiper-slide"> <img src="/images/pediatrician.jpg" alt="Physiotherapist">
+            <h3>Pediatrician</h3>
+            <p>Child specialists and Doctor for infact</p>
+          </div>
+    
+           <!-- === Gestroenterologist CARD === -->
+    
+          <div class="swiper-slide"><img src="/images/gastroenterologist.jpg" alt="Physiotherapist">
+            <h3>Gestroenterologist</h3>
+            <p>Explore for issu related to digestive system,liver and pancreas</p>
+         </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <!-- ======= ARTICLE SECTION ======= -->
+     <section class="articles-section">
+        <div class="articles-content"data-aos="fade-right" data-aos-duration="2000">
+           
+    
+            <h2>Read top articles from <br> health experts</h2>
+            <p>Health articles that keep you informed about good health practices and achieve your goals.</p>
+            <button class="articles-btn">See all articles</button>
+        </div>
+        
+    
+        <!-- ======= ARTICLE CARDS ======= -->
+        <div class="articles-list">
+            
+            <!-- === FIRST ARTICLE CARD === -->
+            <div class="article-card" data-aos="flip-up" data-aos-duration="2000">
+                
+                <img src="/images/coronadr.jpeg" alt="Coronavirus Myths">
+    
+                <h5 class="category">CORONAVIRUS</h5>
+                <h3>12 Coronavirus Myths and Facts That You Should Be Aware Of</h3>
+                <p class="author">Dr. Diana Borgio</p>
+    
+            </div>
+    
+            <!-- === SECOND ARTICLE CARD === -->
+            <div class="article-card" data-aos="flip-down" data-aos-duration="2000">
+                
+                <img src="/images/vitamindr.jpeg" alt="Healthy Diet">
+    
+                <h5 class="category">VITAMINS AND SUPPLEMENTS</h5>
+                <h3>Eating Right to Build Immunity Against Cold and Viral Infections</h3>
+                <p class="author">Dr. Diana Borgio</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- video call patient -->
+    
+    <div class="container">
+        <!-- Left Section: Video Call Image -->
+        <div class="image-container" data-aos="fade-right"data-aos-duration="2000">
+            <img src="/images/footervcdr.png" alt="Doctor Video Call">
+            
+            <!-- Small patient image inside the video call -->
+            <div class="video-thumb">
+                <!-- <img src="footer-img.png" alt="Patient"> -->
+            </div>
+            
+            <!-- Call button -->
+            <!-- <div class="video-call">📞</div> -->
+        </div>
+    
+        <!-- Right Section: Download App Information -->
+        <div class="content" data-aos="fade-left"data-aos-duration="2000">
+            <h2>Download the Practo app</h2>
+            <p>Access video consultation with India's top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home.</p>
+    
+            <!-- Phone number input box -->
+            <div class="input-container">
+                <input type="text" placeholder="+91 Enter phone number">
+                <button>Send SMS</button>
+            </div>
+    
+    
+        <!-- Download buttons -->
+        <div class="buttons">
+            <a href="#">⬇ Google Play</a>
+            <a href="#">⬇ App Store</a>
+        </div>
+    </div>
+</div>
+    </main>
+    
+        <!-- Footer content -->
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Column 1 -->
+                <div class="footer-column">
+                    <h3>Practo</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 2 -->
+                <div class="footer-column">
+                    <h3>For patients</h3>
+                    <ul>
+                        <li><a href="#">Search for doctors</a></li>
+                        <li><a href="#">Search for clinics</a></li>
+                        <li><a href="#">Search for hospitals</a></li>
+                        <li><a href="#">Practo Plus</a></li>
+                        <li><a href="#">Covid Hospital listing</a></li>
+                        <li><a href="#">Practo Care Clinics</a></li>
+                        <li><a href="#">Read health articles</a></li>
+                        <li><a href="#">Read about medicines</a></li>
+                        <li><a href="#">Practo Drive</a></li>
+                        <li><a href="#">Health app</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 3 -->
+                <div class="footer-column">
+                    <h3>For doctors</h3>
+                    <ul>
+                        <li><a href="#">Practo Profile</a></li>
+                    </ul>
+                    <h3>For clinics</h3>
+                    <ul>
+                        <li><a href="#">Ray by Practo</a></li>
+                        <li><a href="#">Practo Reach</a></li>
+                        <li><a href="#">Ray Tab</a></li>
+                        <li><a href="#">Practo Pro</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 4 -->
+                <div class="footer-column">
+                    <h3>For hospitals</h3>
+                    <ul>
+                        <li><a href="#">Insta by Practo</a></li>
+                        <li><a href="#">Qikwell by Practo</a></li>
+                        <li><a href="#">Practo Profile</a></li>
+                        <li><a href="#">Practo Reach</a></li>
+                        <li><a href="#">Practo Drive</a></li>
+                    </ul>
+                    <h3>For Corporates</h3>
+                    <ul>
+                        <li><a href="#">Wellness Plans</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 5 -->
+                <div class="footer-column">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">PCS T&C</a></li>
+                        <li><a href="#">Healthcare Directory</a></li>
+                        <li><a href="#">Practo Health Wiki</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 6 -->
+                <div class="footer-social">
+                    <h3>Social</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div> 
+        
+            <!-- Logo -->
+            <div class="footer-logo">
+                <span>practo</span><span class="dot">.</span>
+            </div>
+        
+            <!-- Copyright Section -->
+            <div class="footer-bottom">
+                Copyright © 2017, Practo. All rights reserved.
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="/swiper.js"></script>
+        <script src="home.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    
+</body>
+</html>
