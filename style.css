@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-font-family: fantasy;}
+   font-family: fantasy;}
 body{
     background-image: url(/images/bgidoctor.jpg) ; 
     background-repeat: no-repeat;
@@ -528,6 +528,7 @@ div .consult-card a{
          display: none;
          width: 100%;
          background-color: white;
+         
 
      } 
      #click:checked ~ #navbar nav ul{
