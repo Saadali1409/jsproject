@@ -48,6 +48,26 @@ nav ul li a {
     font-weight: 600;
     font-size: 16px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+  }
+  
+  .dropdown-content {
+    display: none;
+     /* flex-direction: column;  */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 
@@ -114,7 +134,7 @@ nav ul li a {
 }
 
 .service-card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.265);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -214,13 +234,13 @@ div .consult-card a{
 
 .articles-content h2 {
     font-size: 28px;
-    color: #333;
+    color: black;
     margin-bottom: 10px;
 }
 
 .articles-content p {
-    color: #666;
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -247,7 +267,7 @@ div .consult-card a{
 
 /* ======= ARTICLE CARD STYLES ======= */
 .article-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.199);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -289,7 +309,7 @@ div .consult-card a{
  .container {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgba(84, 148, 216, 0.221);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -549,6 +569,16 @@ div .consult-card a{
          
 
      }
+     .dropdown-content ul li a {
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        top: 80px;
+        left: 0;
+        display: none;
+        width: 100%;
+        background-color: white;
+     }
      div .image-container{
         display: none;
          flex-direction: column;
@@ -593,9 +623,9 @@ div .consult-card a{
  .swiper {
     width: 100%;
     height: 100%; 
-    background: white;
+    background: rgba(255, 255, 255, 0.164);
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0);
     /* width: 220px; */
     /* text-align: center; */
   }
@@ -603,7 +633,7 @@ div .consult-card a{
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #ffffff37;
     display: flex;
     justify-content: center;
     align-items: center;
