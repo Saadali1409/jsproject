@@ -263,6 +263,7 @@ div .consult-card a{
 .articles-list {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* ======= ARTICLE CARD STYLES ======= */
@@ -690,5 +691,10 @@ div .consult-card a{
      }
  #sing-in button a {
      margin-left: auto;
+ }
+ .articles-list{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
  }
  }

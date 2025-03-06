@@ -9,7 +9,7 @@
 //     scaleMobile: 1.00
 //   })
 
-  let sub=()=>{
+  let login=()=>{
     let inpname=document.querySelector("#name").value
     let inppass=document.querySelector("#pass").value
 
