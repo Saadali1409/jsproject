@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Global font */
+}
+
+  body{
+    background-image: url(/images/bgidoctor.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+#click{
+    display: none;
+    
+    }
+    header {
+        background-color: white;
+        padding: 15px 40px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo img {
+        height: 30px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        flex-direction: column;
+      }
+      
+      .dropdown-content {
+        display: none;
+         /* flex-direction: column;  */
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    .login-btn {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        height: 30px;
+        align-items: center;
+        font-size: medium;
+        width: 70px;
+        padding-right: 10px;
+        margin: 10px;
+    
+    }
+    .singup-btn{
+        
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        align-items: center; 
+        font-size: medium;
+        padding: left 10px;;
+        margin: 10px;
+        
+        
+    }
+    /* hover image */
+    
+     img:hover {
+        transition: transform 0.3s ease;
+        transform: scale(1.1);
+    }
+    
+    /* Hero Section */
+    /* Search Section */
+    #search-section {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 30px 0;
+    }
+    
+    #search-section input {
+        padding: 10px;
+        width: 250px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+#hero-banner {
+    height: 80vh;
+    background: url(/images/dentis4k.avif) no-repeat center center/cover;
+    /* margin-top: 58px; */
+}

@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/booking.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>bookingpage</h1>
+    <input type="checkbox"  id="click">
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="/images/practologo.jpeg" alt="Practo Logo">
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="3000">  
+            <ul>
+                <li><a href="#">Find Doctors</a></li>
+                <li><a href="#">Video Consult</a></li>
+                <li><a href="#">Surgeries</a></li>
+                <li><a href="#">For Corporates</a></li>
+                <li><a href="#">For Providers</a></li>
+                <li><a href="#">Security & Help</a></li>
+            </ul> </div>
+            <div class="dropdown"> <label for="click"><i class="fa-solid fa-bars"></i></label>
+                <div id="dropdown-content" class="dropdown-content" >
+                    <ul>
+                        <li><a href="#">Find Doctors</a></li>
+                        <li><a href="#">Video Consult</a></li>
+                        <li><a href="#">Surgeries</a></li>
+                        <li><a href="#">For Corporates</a></li>
+                        <li><a href="#">For Providers</a></li>
+                        <li><a href="#">Security & Help</a></li>
+                    </ul>
+                </div></div>
+
+            <a href="/locallogin.html" ><button class="login-btn">login</button></a>
+            <a href="/localsinup.html" ><button class="singup-btn">singup</button></a>
+
+        </nav>
+    </header>
+     
+      
+    
+    <!-- <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/images/dentistDR.jpg" alt="Dentist">
+          <h3>Dentist</h3>
+          <p>Teething troubles? Schedule a dental checkup</p>
+      </div> -->
+      <div id="hero-banner"></div>
+      <div class="specialties"></div>
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="/swiper.js"></script>
+      <script src="home.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
