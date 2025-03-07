@@ -36,13 +36,13 @@ let sub=()=>{
     
     
     if (inppass =="") {
-        errpass.innerHTML = "Please enter password ";
+        errpass.innerHTML = "Please enter Password ";
         return false
     }
     
     
     if (inpcpass =="") {
-        errcpass.innerHTML = "Please enter confirm password";
+        errcpass.innerHTML = "Please enter confirm Password";
         return false
     }
     
@@ -52,9 +52,9 @@ let sub=()=>{
 
      localStorage.setItem("Email",inpemail )
 
-     localStorage.setItem("password", inppass)
+     localStorage.setItem("Password", inppass)
      
-     localStorage.setItem("password", inpcpass)
+     localStorage.setItem("Password", inpcpass)
 
     location.href="locallogin.html"
 
