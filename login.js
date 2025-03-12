@@ -46,7 +46,7 @@ let login = () => {
     // }
 
     if (loginname==localname && localpasss==loginpasss) {
-        location.href = "index.html";
+        location.href = "/index.html";
     } else {
         alert("Invalid Name or Password");
     }
