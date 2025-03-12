@@ -71,8 +71,20 @@ input.signup{
     background-color: #060606;
 }
 
-@media screen and (max-width: 425px){
-    background-image{
-        display: block;
-    }
-}
+     /* mobile view */
+     @media screen and (max-width: 425px){
+        body{
+            grid-template-columns: 1fr;
+            background-color:white;
+            justify-content: center;
+            
+   
+        }
+        #doctor{
+            align-items: center;
+            justify-items: center;
+            
+        }
+    
+        
+       }
