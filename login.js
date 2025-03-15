@@ -25,8 +25,13 @@ let login = () =>{
     localStorage.setItem("Name", inpname)
     localStorage.setItem("Password", inppass)
 
-
+//  if (loginname==inpnamename && loginpass==inppass){
     location.href="index.html"
+// }
+ 
+//  else{
+//     alert("invalid name or password")
+//  }   
 
     return false
 }
