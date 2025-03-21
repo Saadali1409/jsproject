@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/curd.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>table</title>
+</head>
+
+<body onload="fetchData()">
+    <input type="checkbox"  id="click">
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="/images/practologo.jpeg" alt="Practo Logo">
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="3000">  
+            <ul>
+                <li><a href="#">Find Doctors</a></li>
+                <li><a href="#">Video Consult</a></li>
+                <li><a href="#">Surgeries</a></li>
+                <li><a href="#">For Corporates</a></li>
+                <li><a href="#">For Providers</a></li>
+                <li><a href="#">Security & Help</a></li>
+            </ul> </div>
+            <div class="dropdown"> <label for="click"><i class="fa-solid fa-bars"></i></label>
+                <div id="dropdown-content" class="dropdown-content" >
+                   
+                </div></div>
+
+            <a href="/locallogin.html" ><button class="login-btn">login</button></a>
+            <a href="/localsinup.html" ><button class="singup-btn">singup</button></a>
+
+        </nav>
+    </header>
+    
+
+
+    <!--   -->
+<!-- 
+    <table border="1" cellspacing="10" cellpadding="10px" id="display">
+        
+        <thead>
+        <tr>
+            <th> Name</th>
+            <th> Age</th>
+            <th> City</th>
+            <th> Adharno</th>
+            <th> Number</th>
+            <th> Person</th>
+            <th> Price</th>
+            <th class="cancle-btn">delete</th>
+            <th class="update-btn">update</th>
+        </tr>
+        </thead>
+
+            <tbody id="display">
+                
+            </tbody>
+
+
+    </table>
+    <div id="show">
+
+    </div>
+
+    <div id="pagin" style="display: flex; justify-content: center;">
+        </div>
+ -->
+ <h1> Customer Details</h1>
+
+ <div class="searchcontainer">
+ <span>Search:</span> <input type="text" id="searchinp" oninput="searchh()">
+ </div>
+     <table  border="1px solid black" cellspacing="10px" cellpadding="15px">
+         <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Age</th>
+                 <th>City</th>
+                 <th>Aadhar</th>
+                 <th>Number</th>
+                 <th>Person</th>
+                 <th>fees</th>
+                 <th>Date</th>
+                 <th>Total</th>
+                 <th class="cancel-btn">Cancel</th>
+                 <th class="update-btn" >update</th>
+             </tr>
+         </thead>
+         <tbody id="display">
+             <!-- Data will be dynamically added here -->
+         </tbody>
+     </table>
+     <br><br>
+ 
+ 
+     <div id="show"></div>
+ 
+ 
+     <div id="pagin" style="display: flex; justify-content: center;"> </div>
+
+<script src="./curd.js" ></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>
