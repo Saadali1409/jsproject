@@ -1,22 +1,22 @@
 {
   "hotel": [
     {
-      "id": "bd93",
-      "name": "saad",
-      "contact": "9399053651",
-      "person": "4",
-      "age": "24",
-      "city": "vidisha",
+      "id": "b985",
+      "name": "Saad ali",
+      "contact": "9827693330",
+      "person": "2",
+      "age": "34",
+      "city": "bhopal",
       "aadhar": "123456780098",
       "price": 5000
     },
     {
-      "id": "1f33",
-      "name": "faraz",
-      "contact": "7400514849",
-      "person": "3",
+      "id": "5a29",
+      "name": "saad ali",
+      "contact": "9399053651",
+      "person": "4",
       "age": "27",
-      "city": "bhopal",
+      "city": "vidisha",
       "aadhar": "123456780098",
       "price": 5000
     }
