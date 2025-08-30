@@ -702,3 +702,35 @@ div .consult-card a{
    flex-wrap: wrap;
  }
  } 
+ 
+/* ✅ Mobile Small (420px and below) */
+@media (max-width: 420px) {
+  #search-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #search-section input {
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 95%;
+    margin-bottom: 15px;
+  }
+
+  .service-card h3 {
+    font-size: 16px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+}
